@@ -1,0 +1,68 @@
+
+*{
+    background-color: black;
+}
+
+.navb{
+    margin-top: 0;
+    display: flex;
+    flex-direction:row;
+    background-color: black;
+}
+.navb:hover{
+   color: aquamarine;
+}
+.name{
+    margin-top: 0;
+    margin-left: 0;
+    font-size: 32px;
+    color: white;
+}
+.name:hover{
+    color:cadetblue;
+}
+
+
+#navbar li{
+    list-style: none;
+        padding: 0 20px;
+        position: relative;
+}
+#navbar li a {
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 400;
+    color:white;
+    transition: 0.3s ease;
+}
+#navbar li a:hover,
+ #navbar li a.active{
+    color: cadetblue;
+}
+#navbar li a.active::after,
+#navbar li a:hover::after{
+    content: '';
+    width: 30%;
+    height: 2px;
+    background-color: cadetblue;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+
+
+
+.div{
+    height: 350px;
+    width: 350px;
+    background-color: rgb(61, 61, 61);
+    border-radius: 20%;
+}
+
+.div:hover{
+    background-color: rgb(176, 170, 170);
+}
+
+
+
